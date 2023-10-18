@@ -155,5 +155,3 @@ def expected_loss(loan_properties, model=log_model, recovery_rate=0.10):
     el = pd * lgd * ead
 
     return max(el[0], 0)
-
-plt.show()
