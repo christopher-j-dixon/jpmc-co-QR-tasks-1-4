@@ -141,12 +141,3 @@ def price_forcast(date):
     else:
         return "After prediction period."
 
-# Testing
-print(price_forcast("2024-09-30"))  # Start of the prediction range
-print(price_forcast("2025-05-15"))  # Middle of the prediction range
-print(price_forcast("2025-09-30"))  # End of the prediction range
-print(price_forcast("2024-09-15"))  # A date before the prediction range
-print(price_forcast("2025-10-01"))  # A date after the prediction range
-
-# Show all above plots
-plt.show()
